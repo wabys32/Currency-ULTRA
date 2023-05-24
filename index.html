@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="icon.ico" />
+</head>
+<body>
+
+    <p id="title1">Currency <b>ULTRA</b></p>
+    <div id="div1">
+        <img src="flags/1x1/us.svg" style="width: 25px; height: 25px; border-radius: 100px; margin-right: 10px;" title="Русский">USD :
+        <input class="USD" onClick="this.select();" type="number" id="1" placeholder="0" value="0" oninput="calculate(this.value, 'USD', this)"> </input>
+    </div>
+    <div id="div1">
+        <img src="flags/1x1/kz.svg" style="width: 25px; height: 25px; border-radius: 100px; margin-right: 10px;" title="Русский">KZT :
+        <input class="KZT" onClick="this.select();" type="number" id="2" placeholder="0" value="0" oninput="calculate(this.value, 'KZT', this)"> </input>
+    </div>
+    <div id="div1">
+        <img src="flags/1x1/ru.svg" style="width: 25px; height: 25px; border-radius: 100px; margin-right: 10px;" title="Русский">RUB :
+        <input class="RUB" onClick="this.select();" type="number" id="3" placeholder="0" value="0" oninput="calculate(this.value, 'RUB', this)"> </input>
+    </div>
+    <div id="div1">
+        <img src="flags/1x1/cn.svg" style="width: 25px; height: 25px; border-radius: 100px; margin-right: 10px;" title="Русский">CNY : 
+        <input class="CNY" onClick="this.select();" type="number" id="4" placeholder="0" value="0" oninput="calculate(this.value, 'CNY', this)"> </input>
+    </div>
+    <div id="div1">
+        <img src="flags/1x1/eu.svg" style="width: 25px; height: 25px; border-radius: 100px; margin-right: 10px;" title="Русский">EUR :
+        <input class="EUR" onClick="this.select();" type="number" id="5" placeholder="0" value="0" oninput="calculate(this.value, 'EUR', this)"> </input>
+    </div>
+</body>
+
+<script src="index.js"></script>
+</html>
